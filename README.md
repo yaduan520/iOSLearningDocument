@@ -8,7 +8,7 @@
 4、[各种模仿应用](#4)  
 5、[时间选择器](#5)    
 6、[视频播放](#6)   
-7、[图片浏览器、轮播图](#7)     
+7、[图片相关、图片浏览器、轮播图](#7)     
 8、[分段选择 Segment](#8)  
 9、[表格 tableview](#9)    
 10、[弹窗](#10)    
@@ -19,8 +19,10 @@
 15、[网络](#15)    
 16、[音乐播放](#16)    
 17、[Socket](#17)   
-18、[强大的 label](#18)   
-19、[NSDate](#19)
+18、[强大的 label、富文本](#18)   
+19、[NSDate](#19)  
+20、[各种demo github整理集合](#20)  
+21、[iOS学习资料库](#21)  
 
 <h3 id = "1">一、AutoLayout 自动布局</h3>
 1、[Autolayout Example With Masonry](https://github.com/zekunyan/AutolayoutExampleWithMasonry ) Masonry 的一个简单的应用demo  
@@ -47,7 +49,7 @@
 5、[简阅, 源码](https://github.com/guojiubo/PlainReader)
 
 
-<h4 id = "5">五、时间选择器</h4>
+<h4 id = "5">五、选择器</h4>
 1、[时间选择器](https://github.com/HZTonyAng/YTDataSelectDemo)  定位到当前时间的自定义时间选择器  
 2、[UsefulPickerView]( https://github.com/jasnig/UsefulPickerView ) swift版本
 
@@ -55,9 +57,11 @@
 1、[VideoPlyer](http://code.cocoachina.com/view/129475)一个视频播放器   
 2、[ACloudIOSPlayer](https://github.com/ArenaCloud/ACloudIOSPlayer)Arenacloud video player sdk for IOS, 支持手机直播、流媒体点播、直播  
 3、[XLVideoPlayer]( http://www.cocoachina.com/ios/20160414/15922.html)基于AVFoundation自定义的视频播放器  
+4、[AVPlayer (类似今日头条播放器)]( https://github.com/renzifeng/ZFPlayer) 支持横屏、竖屏（全屏播放还可锁定屏幕方向），上下滑动调节音量、屏幕亮度，左右滑动调节播放进度，功能强大   
+5、[跨平台视频采集、直播SDK]( https://github.com/daniulive/SmarterStreaming) 直播 推流  
+6、[ RTMP 直播推流 SDK]( https://github.com/pili-engineering/PLCameraStreamingKit) RTMP 直播推流 SDK
 
-
-<h4 id = "7">七、图片浏览器、轮播图</h4>
+<h4 id = "7">七、图片相关、图片浏览器、轮播图</h4>
 1、[基于AssetsLibrary的照片选取器。](https://github.com/alienjun/AJPhotoPicker) 基于AssetsLibrary的照片选取器。选择器  
 2、[JFImagePicker](https://github.com/johnil/JFImagePickerController) 高性能图片选择器JFImagePicker支持多选、预览已选照片、针对超大图片优化  
 3、[继承图片多选/图片浏览器一体](https://github.com/MakeZL/ZLPhotoLib) 继承图片多选/图片浏览器一体的相册选择  
@@ -72,15 +76,24 @@
 12、[图片裁切]( http://code.cocoachina.com/view/129227) 自定义大小图片裁剪 图片可缩放  
 13、[iCarousel]( https://github.com/nicklockwood/iCarousel ) 轮播图效果很棒，曾经使用过这个  
 14、[ZYBannerView](https://github.com/zzyspace/ZYBannerView/) 强大的轮播图效果  
-15、[中间放大的轮播图](http://blog.csdn.net/jx1152300755/article/details/51086322 ) 中间cell 放大 基于collectionView
-16、[蜗牛的banner](https://github.com/Joneze/ZHScrollView/) 首页banner
+15、[中间放大的轮播图](http://blog.csdn.net/jx1152300755/article/details/51086322 ) 中间cell 放大 基于collectionView  
+16、[蜗牛的banner](https://github.com/Joneze/ZHScrollView/) 首页banner  
+17、[UIImage扩展库]( https://github.com/Nyx0uf/NYXImagesKit) UIImage扩展库 包括过滤，模糊，增强，遮蔽，反映，调整大小，旋转，节约。  
+18、[image模糊]( https://github.com/BradLarson/GPUImage ) image 模糊  过滤  
+19、[view模糊]( https://github.com/nicklockwood/FXBlurView) view的模糊效果  
+20、[图片裁剪]( http://code.cocoachina.com/view/129227) 自定义大小图片裁剪 图片可缩放  
+21、[图片选择器](https://github.com/yahoo/YangMingShan) 可定制各种颜色。应用场景 朋友圈 微博 等社交  
+22、[YRCoverFlowLayout](https://github.com/solomidSF/YRCoverFlowLayout)卡片式轮播图 可参考英雄联盟的皮肤 [类似的教程博客](http://blog.csdn.net/deft_mkjing/article/details/52217511)  
+23、[仿开眼app列表效果](https://github.com/juvham/kaiyan)仿开眼app列表效果 ， 增加了 寺库的 视差效果
 
 <h4 id = "8">八、分段选择 Segment</h4>
 1、[LGSegment](http://code.cocoachina.com/view/129186) LGSegment简单的分段选择  
 2、[XXXSegmentView](https://github.com/zsy78191/XXXSegmentView) 一款简单的分段选择器  
 3、[DLSlideView](https://github.com/agdsdl/DLSlideView)DLSlideView对常见的顶部Tab页点击、滑动分页做了封装。子视图基于UIViewController而非UIView  
 4、[PagerTab](https://github.com/ming1016/PagerTab)UIScrollView实现滑动转换页面，类似网易云音乐iOS版的页面滑动切换效果  
-
+5、[MartyJunior](https://github.com/szk-atmosphere/MartyJunior)一款适用于我的页面的segment联动滑动  
+6、[SwipeTableView](https://github.com/Roylee-ML/SwipeTableView)这是一个实现类似半糖、美丽说主页与QQ音乐歌曲列表的控件，实现不同菜单的左右滑动切换  
+  
 
 <h4 id = "9">九、表格 tableview</h4>
 1、[cell单选或者多选删除](http://code.cocoachina.com/view/128706) 点击编辑按钮后，cell单选或者多选删除   
@@ -91,7 +104,9 @@
 6、[通过长按手势即可移动cell的tableView](https://github.com/pujiaxin33/JXMovableCellTableView) 长按移动 [相应的简书博客](http://www.jianshu.com/p/ce382f9bc794)  
 7、[左滑多个按钮](http://www.myexception.cn/operating-system/1934244.html )iOS项目开发小技能 (三) -UITableView实现Cell左划删除等自定义功能  
 8、[自定义删除按钮]( http://blog.csdn.net/u010519146/article/details/42882635 ) iOS tableviewcell左划自定义（带图片）删除按钮，点击任意地方取消删除的巧妙实现方法  
-9、[JTGestureBasedTableViewDemo] ( https://github.com/jamztang/JTGestureBasedTableViewDemo ) 右滑删除 左滑完成  
+9、[JTGestureBasedTableViewDemo](https://github.com/jamztang/JTGestureBasedTableViewDemo ) 右滑删除 左滑完成  
+10、[城市列表](https://github.com/coderZhou10496/SelectCityDemo) 城市列表  
+11、[folding-cell](https://github.com/Ramotion/folding-cell) 很炫酷的一款自定义cell，swift语言编写。  
 
 <h4 id = "10">十、弹窗</h4>
 1、[MMPopupView](https://github.com/adad184/MMPopupView) 国人写的弹窗，推荐。相应的  [博客教程](http://adad184.com/2015/09/08/opensource-mmpopupview/)   
@@ -105,6 +120,9 @@
 4、[MSDynamicsDrawerViewController](https://github.com/erichoracek/MSDynamicsDrawerViewController) 一款优秀的侧滑栏   
 5、[FDFullscreenPopGesture](https://github.com/forkingdog/FDFullscreenPopGesture) 让导航栏具有全屏右滑滑动返回功能  
 6、[YYKit](https://github.com/ibireme/YYKit) **相当强大的一个框架，内容非常丰富，国内大神写的，极力推荐** 内含YYModel、YYCache、YYImage、YYWebImage、YYText、YYKeyboardManager、YYDispatchQueuePool、YYAsyncLayer、YYCategories 强大的功能  
+7、[LXLabelDemo](https://github.com/xinge1/LXLabelDemo)一款简单的UILabel扩展。支持修改字间距，行间距，设置关键字，下划线，自动计算高度并返回  
+8、[DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) 非常强大的一款集成空白页面的库。  
+9、[VHBoomMenuButton](https://github.com/Nightonke/VHBoomMenuButton) 一款炫酷的button  
 
 <h4 id = "12">十二、动画、贝塞尔曲线、animation</h4>
 1、[贝塞尔曲线应用](http://code.cocoachina.com/view/129579) 画曲线 可画蓝胖子等 [参考技术博客](http://www.cocoachina.com/ios/20160214/15251.html)  
@@ -124,6 +142,7 @@
 10、[GitHub前50名的Objective-C动画相关库](http://www.cocoachina.com/ios/20160602/16574.html) GitHub前50名的Objective-C动画相关库  
 11、[进度条]( https://github.com/ninjinkun/NJKWebViewProgress ) 网易使用--webview的进度条  
 12、[进度条 M13ProgressSuite]( https://github.com/Marxon13/M13ProgressSuite ) 各种进度  
+13、[OpenGL ES魔方应用](https://github.com/yinghuochong/MagicCube) 这是一个魔方，相应的博客[简书博客](http://www.jianshu.com/p/62fc87833ed5)
 
 <h4 id = "13">十三、正则</h4>
 1、[手机，邮箱，身份证号码验证](http://code.cocoachina.com/view/129735) 电话号码 身份证 邮箱验证
@@ -138,8 +157,9 @@
 
 <h4 id = "15">十五、网络</h4>
 1、[HYBNetworking]( https://github.com/CoderJackyHuang/HYBNetworking) 标哥的技术博客 基于AFNetworking3.0以上版本封装的网络层。提供常用的GET/POST接口、上传下载图片、文件接口、支持缓存等。[标哥的技术博客](http://www.henishuo.com/base-on-afnetworking3-0-wrapper/)    
-2、[HZExtend] ( https://github.com/GeniusBrother/HZExtend ) MVVM&网络请求，解放VC:基于MVVM的思想，将数据相关的业务逻辑交给到ViewModel处理从而减少控制器的压力，降低代码耦合.  
-
+2、[HZExtend](https://github.com/GeniusBrother/HZExtend ) MVVM&网络请求，解放VC:基于MVVM的思想，将数据相关的业务逻辑交给到ViewModel处理从而减少控制器的压力，降低代码耦合.  
+3、[TYDownloadManager](https://github.com/12207480/TYDownloadManager)  断点下载管理基于NSURLSessionDataTask和NSURLSessionDownloadTask，提供进度更新和状态改变bloc 和 delegate。  
+4、[IMYWebView](https://github.com/li6185377/IMYWebView)无缝切换 UIWebView 为 WKWebView 互相兼容
 
 <h4 id = "16">十六、音乐播放</h4>
 1、[linjiaMusic](https://github.com/ashen-zhao/linjiaMusic)模仿天天动听音乐，数据也是抓的天天动听  
@@ -149,10 +169,10 @@
 2、[AsyncSocket.h解读]( http://www.cnblogs.com/worldtraveler/archive/2012/12/22/2829067.html ) 关于AsyncSocket的解读博客
 
 
-<h4 id = "18">十八、强大的label</h4>
+<h4 id = "18">十八、强大的label、富文本</h4>
 1、[LXLabelDemo]( https://github.com/xinge1/LXLabelDemo ) 富文本下划线 字间距 计算宽高   
-2、[开源中国APP效果图]( http://my.oschina.net/sayhellovip/blog/661372 ) 1.n文字
-
+2、[开源中国APP效果图]( http://my.oschina.net/sayhellovip/blog/661372 ) 1.n文字  
+3、[Gallop](https://github.com/waynezxcv/Gallop) 非常强大的一个富文本库，可解析html成原生界面、如丝般顺滑的微信朋友圈（点赞，评论，图文混排表情。Gallop是使用异步绘制的富文本、图文混排框架。它封装了CoreText的富文本功能和常用的图片处理功能。  
 
 <h4 id = "19">十九、NSDate</h4>
 1、[DateTools](http://www.oschina.net/p/datetools)DateTool 时间处理
@@ -182,4 +202,6 @@
 11、[iOS-Core-Animation-Advanced-Techniques](https://github.com/AttackOnDobby/iOS-Core-Animation-Advanced-Techniques  翻译) 翻译  
 12、[ObjC Zen Book 中文翻译](https://github.com/oa414/objc-zen-book-cn)  
 13、[iOS 最佳实践](https://github.com/oa414/ios-good-practices/blob/master/TRANSLATION-CN.md   ios最佳实践) 本文翻译自 futurice 公司的 iOS Good Practices，译文在 Github 上进行维护，同时在 简书 上进行发布。  
-14、[SwiftInFlux](https://github.com/ksm/SwiftInFlux)
+14、[SwiftInFlux](https://github.com/ksm/SwiftInFlux)  
+15、[open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps#keyboards)美国人收集的开源完整项目  
+16、[awesome-ios](https://github.com/vsouza/awesome-ios)作者同上 这个合集为各种三方库  
